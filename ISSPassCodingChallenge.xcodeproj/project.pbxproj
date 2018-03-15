@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		419CBC0220586BC5006F2D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC0120586BC5006F2D79 /* AppDelegate.swift */; };
-		419CBC0420586BC5006F2D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC0320586BC5006F2D79 /* ViewController.swift */; };
+		419CBC0420586BC5006F2D79 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC0320586BC5006F2D79 /* MainViewController.swift */; };
 		419CBC0720586BC6006F2D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419CBC0520586BC6006F2D79 /* Main.storyboard */; };
 		419CBC0920586BC6006F2D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419CBC0820586BC6006F2D79 /* Assets.xcassets */; };
 		419CBC0C20586BC6006F2D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419CBC0A20586BC6006F2D79 /* LaunchScreen.storyboard */; };
 		419CBC1720586BC6006F2D79 /* ISSPassCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC1620586BC6006F2D79 /* ISSPassCodingChallengeTests.swift */; };
+		419CBC2220589EE2006F2D79 /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC2120589EE2006F2D79 /* Pass.swift */; };
+		419CBC2420599471006F2D79 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CBC2320599471006F2D79 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		419CBBFE20586BC5006F2D79 /* ISSPassCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSPassCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419CBC0120586BC5006F2D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		419CBC0320586BC5006F2D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		419CBC0320586BC5006F2D79 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		419CBC0620586BC6006F2D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		419CBC0820586BC6006F2D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419CBC0B20586BC6006F2D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		419CBC1220586BC6006F2D79 /* ISSPassCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSPassCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		419CBC1620586BC6006F2D79 /* ISSPassCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassCodingChallengeTests.swift; sourceTree = "<group>"; };
 		419CBC1820586BC6006F2D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419CBC2120589EE2006F2D79 /* Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
+		419CBC2320599471006F2D79 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				419CBC0120586BC5006F2D79 /* AppDelegate.swift */,
-				419CBC0320586BC5006F2D79 /* ViewController.swift */,
+				419CBC2320599471006F2D79 /* Client.swift */,
+				419CBC0320586BC5006F2D79 /* MainViewController.swift */,
+				419CBC2120589EE2006F2D79 /* Pass.swift */,
 				419CBC0520586BC6006F2D79 /* Main.storyboard */,
 				419CBC0820586BC6006F2D79 /* Assets.xcassets */,
 				419CBC0A20586BC6006F2D79 /* LaunchScreen.storyboard */,
@@ -199,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419CBC0420586BC5006F2D79 /* ViewController.swift in Sources */,
+				419CBC0420586BC5006F2D79 /* MainViewController.swift in Sources */,
+				419CBC2220589EE2006F2D79 /* Pass.swift in Sources */,
+				419CBC2420599471006F2D79 /* Client.swift in Sources */,
 				419CBC0220586BC5006F2D79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
